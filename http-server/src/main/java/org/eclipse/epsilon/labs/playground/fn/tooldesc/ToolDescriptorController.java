@@ -29,10 +29,10 @@ public class ToolDescriptorController {
             module.parse(getClass().getResource("/mdenet_tool.egl").toURI());
 
             var urls = new HashMap<String, String>();
-            urls.put("epsilon", resolve(request, "/tools/epsilon" + RunEpsilonController.PATH));
-            urls.put("flexmi2plantuml", resolve(request, "/tools/epsilon" + Flexmi2PlantUMLController.PATH));
-            urls.put("xmi2plantuml", resolve(request, "/tools/epsilon" + Xmi2PlantUMLController.PATH));
-            urls.put("emfatic2plantuml", resolve(request, "/tools/epsilon" + Emfatic2PlantUMLController.PATH)); 
+            urls.put("epsilon", resolve(request, RunEpsilonController.PATH));
+            urls.put("flexmi2plantuml", resolve(request, Flexmi2PlantUMLController.PATH));
+            urls.put("xmi2plantuml", resolve(request, Xmi2PlantUMLController.PATH));
+            urls.put("emfatic2plantuml", resolve(request, Emfatic2PlantUMLController.PATH)); 
 
             module.getContext().getFrameStack().put(
                 Variable.createReadOnlyVariable("urls", urls)
