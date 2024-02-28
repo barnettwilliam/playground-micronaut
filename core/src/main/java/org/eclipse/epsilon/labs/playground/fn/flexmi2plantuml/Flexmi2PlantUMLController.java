@@ -18,7 +18,7 @@ import net.sourceforge.plantuml.SourceStringReader;
 
 @Controller(Flexmi2PlantUMLController.PATH)
 public class Flexmi2PlantUMLController {
-    public static final String PATH = "/flexmi2plantuml";
+    public static final String PATH = "/services/flexmi2plantuml";
 
     @Inject
     ModelLoader modelLoader;

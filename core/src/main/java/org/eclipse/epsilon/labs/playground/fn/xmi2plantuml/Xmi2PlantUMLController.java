@@ -18,7 +18,7 @@ import net.sourceforge.plantuml.SourceStringReader;
 
 @Controller(Xmi2PlantUMLController.PATH)
 public class Xmi2PlantUMLController {
-    public static final String PATH = "/xmi2plantuml";
+    public static final String PATH = "/services/xmi2plantuml";
 
     @Inject
     ModelLoader modelLoader;

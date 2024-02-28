@@ -16,7 +16,7 @@ import net.sourceforge.plantuml.SourceStringReader;
 
 @Controller(Emfatic2PlantUMLController.PATH)
 public class Emfatic2PlantUMLController {
-    public static final String PATH = "/emfatic2plantuml";
+    public static final String PATH = "/services/emfatic2plantuml";
 
     @Inject
     ModelLoader loader;

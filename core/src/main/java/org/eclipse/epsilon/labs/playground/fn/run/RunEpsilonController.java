@@ -35,7 +35,7 @@ import jakarta.inject.Inject;
 
 @Controller(RunEpsilonController.PATH)
 public class RunEpsilonController {
-	public static final String PATH = "/epsilon";
+	public static final String PATH = "/services/epsilon";
 
 	@Inject
 	ModelLoader loader;
